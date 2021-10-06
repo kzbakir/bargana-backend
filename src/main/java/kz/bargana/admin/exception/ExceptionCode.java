@@ -9,19 +9,19 @@ import java.util.List;
 
 public enum ExceptionCode {
     SYSTEM_ERROR(LocalizedMessage.of(
-            Language.ru, "Системная ошибка",
-            Language.kz, "Системная ошибка",
-            Language.en, "System error")
+            Language.RU, "Системная ошибка",
+            Language.KZ, "Системная ошибка",
+            Language.EN, "System error")
     ),
     DATA_ACCESS_ERROR(LocalizedMessage.of(
-            Language.ru, "Ошибка обращения к БД",
-            Language.kz, "Ошибка обращения к БД",
-            Language.en, "Data access error")
+            Language.RU, "Ошибка обращения к БД",
+            Language.KZ, "Ошибка обращения к БД",
+            Language.EN, "Data access error")
     ),
     MEMBER_NOT_FOUND(LocalizedMessage.of(
-            Language.ru, "Человек не найден",
-            Language.kz, "Адам табылған жоқ",
-            Language.en, "User not found")
+            Language.RU, "Человек не найден",
+            Language.KZ, "Адам табылған жоқ",
+            Language.EN, "User not found")
     );
 
     private final List<LocalizedMessage> localizedMessages;

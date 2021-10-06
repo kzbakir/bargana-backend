@@ -1,6 +1,6 @@
 package kz.bargana.admin.exception;
 
-public class BarganaException extends RuntimeException{
+public class BarganaException extends RuntimeException {
     protected ExceptionCode code;
 
     public BarganaException(String message, ExceptionCode code) {
